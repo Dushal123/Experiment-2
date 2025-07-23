@@ -1,30 +1,120 @@
-✅ Aim:
-To write a C++ program that demonstrates the use of basic data types such as int, float, double, char, and bool, and to understand how to declare, initialize, and display values using these data types.
+🎯 Aim:
+To write a C++ program that demonstrates the declaration, initialization, and usage of basic built-in data types such as int, float, double, char, and bool, and to understand how different types of data are handled in C++.
 
-🧠 Theory:
-In C++, data types are used to define the type of data that a variable can hold. Every variable must be declared with a specific data type so that the compiler knows how much memory to allocate and what operations are allowed on that variable.
+🧠 Theory (Expanded & Detailed):
+In C++, data types define the type and size of data a variable can hold. Every variable in a C++ program must be declared with a data type, so the compiler knows:
 
-The five most commonly used primitive data types in C++ are:
+How much memory to allocate for the variable.
 
-int (Integer): Used to store whole numbers without any decimal point. Example: age, count, number of items, etc.
+What type of operations can be performed on it.
 
-float: Used to store numbers that include a fractional part with single precision. Useful for measurements or percentages where limited precision is acceptable.
+How the value should be interpreted during program execution.
 
-double: Similar to float but provides double the precision. It is useful in calculations that require higher accuracy.
+C++ is a statically typed language, which means the type of every variable must be known at compile time. This allows for type safety and optimized memory usage.
 
-char (Character): Stores a single character, such as a letter or symbol. Characters are enclosed in single quotes like 'A', 'Z', or '@'.
+🔹 Categories of Data Types in C++:
+C++ supports the following broad categories of data types:
 
-bool (Boolean): Stores logical values: either true or false. In C++, true is represented as 1 and false as 0 when printed.
+Primitive/Built-in Data Types
 
-This program declares variables of all these types, assigns values to them, and then prints the values using the output stream cout. This helps in understanding how different types of data are stored and displayed in C++.
+Derived Data Types (e.g., arrays, functions, pointers)
 
-📌 Learning Outcomes:
-Understanding the role and declaration of different basic data types in C++.
+User-defined Data Types (e.g., structures, classes, unions)
 
-Learning how to assign and output values of different types.
+In this program, we focus on primitive or fundamental data types. These are the building blocks of all data handling in C++.
 
-Gaining knowledge about how C++ handles numeric, character, and logical data.
+🔸 Primitive Data Types in Detail:
+🔹 1. int (Integer):
+Used to store whole numbers (positive or negative).
 
-🔚 Conclusion:
-This program provides a clear understanding of how to use different primitive data types in C++. It is essential for beginners to know how to work with various types of variables before moving on to more complex programming concepts. Mastering data types forms the basis for handling inputs, calculations, and decision-making in any C++ program.
+Commonly used to store values like age, roll number, item count, etc.
 
+Occupies 4 bytes of memory (in most compilers/systems).
+
+Value range: from -2,147,483,648 to 2,147,483,647 (32-bit systems).
+
+Real-world use: Number of products in a store, employee ID, etc.
+
+🔹 2. float (Floating Point):
+Stores decimal or fractional numbers with single precision.
+
+Occupies 4 bytes of memory.
+
+Precision up to 6–7 decimal places.
+
+Suitable for applications where approximate values are acceptable.
+
+Real-world use: Measuring height, temperature, ratings, etc.
+
+🔹 3. double (Double Precision Float):
+Like float but stores decimal numbers with higher accuracy and range.
+
+Occupies 8 bytes of memory.
+
+Precision up to 15–16 decimal places.
+
+Used where precision is critical, like in scientific calculations or financial applications.
+
+Real-world use: Physics formulas, currency operations, and GPS coordinates.
+
+🔹 4. char (Character):
+Stores a single character.
+
+Occupies 1 byte of memory.
+
+Stores letters, digits, or special symbols (enclosed in single quotes like 'A', '9', or '$').
+
+Internally stored using ASCII values (e.g., 'A' = 65).
+
+Real-world use: Grade assignment, gender input ('M'/'F'), menu options.
+
+🔹 5. bool (Boolean):
+Stores logical values: either true or false.
+
+Typically occupies 1 byte, but only 1 bit is logically required.
+
+Used in decision-making (conditions, loops, flags).
+
+When printed, true shows as 1, and false as 0.
+
+Real-world use: Is the user logged in? Is the payment complete? etc.
+
+📌 Why Are Data Types Important?
+Prevent incorrect data operations (e.g., adding a number to a character).
+
+Optimize memory usage by choosing the right size (e.g., int vs double).
+
+Help the compiler catch errors during compilation.
+
+Improve code readability and maintainability.
+
+Make the program efficient and reliable.
+
+🔬 How This Program Helps You Learn:
+This program introduces a practical way to explore:
+
+The declaration and initialization of different data types.
+
+Understanding what kind of data each type stores.
+
+Seeing how values are stored and retrieved.
+
+Recognizing how boolean values are interpreted numerically (true = 1, false = 0).
+
+Realizing the differences in precision between float and double.
+
+It is also a stepping stone toward:
+
+Understanding typecasting and conversions.
+
+Building functions and handling return types.
+
+Working with arrays and structures (which are combinations of data types).
+
+📝 Summary of Data Types:
+Data Type	Description	Size (Typical)	Example Value	Use Case Example
+int	Whole numbers	4 bytes	20	Age, count
+float	Decimal (single precision)	4 bytes	5.9f	Height, rating
+double	Decimal (double precision)	8 bytes	65.75	Weight, price, scientific calc
+char	Single character	1 byte	'A'	Grade, initial, gender
+bool	Logical true/false	1 byte	true	Flags, decisions

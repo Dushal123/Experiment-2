@@ -24,3 +24,12 @@ int main() {
 
     return 0;
 }
+
+/*
+output:
+Age: 20
+Height: 5.9 feet
+Weight: 65.75 kg
+Grade: A
+Is Student: 1
+*/

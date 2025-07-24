@@ -1,120 +1,38 @@
-🎯 Aim:
-To write a C++ program that demonstrates the declaration, initialization, and usage of basic built-in data types such as int, float, double, char, and bool, and to understand how different types of data are handled in C++.
+**🧪 Experiment 2: Data Types in C++
+**
+**✅ Aim:**
 
-🧠 Theory (Expanded & Detailed):
-In C++, data types define the type and size of data a variable can hold. Every variable in a C++ program must be declared with a data type, so the compiler knows:
+To write a C++ program that demonstrates the declaration, initialization, and usage of basic built-in data types such as int, float, double, char, and bool.
 
-How much memory to allocate for the variable.
+**🧠 Theory:**
 
-What type of operations can be performed on it.
+In C++, data types specify the kind of data a variable can hold and how much memory it occupies. C++ is a statically typed language, meaning every variable must be declared with a data type before use. This allows the compiler to allocate the correct amount of memory and prevent invalid operations.
 
-How the value should be interpreted during program execution.
+There are three main categories of data types in C++:
 
-C++ is a statically typed language, which means the type of every variable must be known at compile time. This allows for type safety and optimized memory usage.
+Primitive (Built-in) Data Types – int, float, double, char, bool
 
-🔹 Categories of Data Types in C++:
-C++ supports the following broad categories of data types:
+Derived Data Types – arrays, pointers, functions
 
-Primitive/Built-in Data Types
+User-defined Data Types – structures, classes, unions
 
-Derived Data Types (e.g., arrays, functions, pointers)
+In this experiment, we focus only on primitive data types, which are the foundation of all C++ programs.
 
-User-defined Data Types (e.g., structures, classes, unions)
+Description of Basic Data Types:
 
-In this program, we focus on primitive or fundamental data types. These are the building blocks of all data handling in C++.
+int – Used for storing whole numbers. (e.g., age = 20)
 
-🔸 Primitive Data Types in Detail:
-🔹 1. int (Integer):
-Used to store whole numbers (positive or negative).
+float – Stores decimal values with single precision. (e.g., height = 5.8f)
 
-Commonly used to store values like age, roll number, item count, etc.
+double – Stores decimal values with double precision. (e.g., price = 99.99)
 
-Occupies 4 bytes of memory (in most compilers/systems).
+char – Stores a single character. (e.g., grade = 'A')
 
-Value range: from -2,147,483,648 to 2,147,483,647 (32-bit systems).
+bool – Stores either true or false. (e.g., isActive = true)
 
-Real-world use: Number of products in a store, employee ID, etc.
+Each data type is used for specific purposes based on the nature of data and memory requirements.
 
-🔹 2. float (Floating Point):
-Stores decimal or fractional numbers with single precision.
+**📘 Conclusion:**
 
-Occupies 4 bytes of memory.
+In this experiment, we understood how to declare and use basic data types in C++. We also learned how different types store and display values, and how they are essential for building correct and efficient programs.
 
-Precision up to 6–7 decimal places.
-
-Suitable for applications where approximate values are acceptable.
-
-Real-world use: Measuring height, temperature, ratings, etc.
-
-🔹 3. double (Double Precision Float):
-Like float but stores decimal numbers with higher accuracy and range.
-
-Occupies 8 bytes of memory.
-
-Precision up to 15–16 decimal places.
-
-Used where precision is critical, like in scientific calculations or financial applications.
-
-Real-world use: Physics formulas, currency operations, and GPS coordinates.
-
-🔹 4. char (Character):
-Stores a single character.
-
-Occupies 1 byte of memory.
-
-Stores letters, digits, or special symbols (enclosed in single quotes like 'A', '9', or '$').
-
-Internally stored using ASCII values (e.g., 'A' = 65).
-
-Real-world use: Grade assignment, gender input ('M'/'F'), menu options.
-
-🔹 5. bool (Boolean):
-Stores logical values: either true or false.
-
-Typically occupies 1 byte, but only 1 bit is logically required.
-
-Used in decision-making (conditions, loops, flags).
-
-When printed, true shows as 1, and false as 0.
-
-Real-world use: Is the user logged in? Is the payment complete? etc.
-
-📌 Why Are Data Types Important?
-Prevent incorrect data operations (e.g., adding a number to a character).
-
-Optimize memory usage by choosing the right size (e.g., int vs double).
-
-Help the compiler catch errors during compilation.
-
-Improve code readability and maintainability.
-
-Make the program efficient and reliable.
-
-🔬 How This Program Helps You Learn:
-This program introduces a practical way to explore:
-
-The declaration and initialization of different data types.
-
-Understanding what kind of data each type stores.
-
-Seeing how values are stored and retrieved.
-
-Recognizing how boolean values are interpreted numerically (true = 1, false = 0).
-
-Realizing the differences in precision between float and double.
-
-It is also a stepping stone toward:
-
-Understanding typecasting and conversions.
-
-Building functions and handling return types.
-
-Working with arrays and structures (which are combinations of data types).
-
-📝 Summary of Data Types:
-Data Type	Description	Size (Typical)	Example Value	Use Case Example
-int	Whole numbers	4 bytes	20	Age, count
-float	Decimal (single precision)	4 bytes	5.9f	Height, rating
-double	Decimal (double precision)	8 bytes	65.75	Weight, price, scientific calc
-char	Single character	1 byte	'A'	Grade, initial, gender
-bool	Logical true/false	1 byte	true	Flags, decisions
